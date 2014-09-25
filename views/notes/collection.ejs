@@ -1,0 +1,6 @@
+<% layout('../layout') -%>
+<h1><%= title %></h1>
+<% notes.forEach( function(note){ %>
+	<h3><%= note.title %></h3>
+	<p><%= note.content %></p>
+<% }); %>
